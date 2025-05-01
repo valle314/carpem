@@ -1,0 +1,118 @@
+[keybindings.Global] 
+"<q>" = "Quit"
+"tab" = "NextView"
+"<ctrl-h>" = "FocusLeft"
+"<ctrl-j>" = "FocusDown"
+"<ctrl-k>" = "FocusUp"
+"<ctrl-l>" = "FocusRight"
+
+[user_data]
+# specifically task table 
+is_time_tracked_fg = "#1a1a1a"
+is_time_tracked_bg = "#f4e1b5"
+status_backlog_fg = "#3A3A3A"
+status_backlog_bg = "Reset"
+status_pending_fg = "Reset"
+status_pending_bg = "Reset"
+status_in_progress_fg = "Reset"
+status_in_progress_bg = "Reset"
+status_testing_fg = "Reset"
+status_testing_bg = "Reset"
+status_done_fg = "Reset"
+status_done_bg = "Reset"
+
+# task table and event table
+"table_header_color" = "Reset"
+"table_highlighted_fg" = "#1a1a1a"
+"table_highlighted_bg" = "#f4e1b5"
+
+# displayed text and borders
+"text" = "Reset"
+"border_focused" = "#eca700"
+"border_default" = "Reset"
+
+# tag related
+"tag_highlighted_fg" = "#1a1a1a"
+"tag_highlighted_bg" = "#f4e1b5"
+"tag_selected_fg" = "#1a1a1a"
+"tag_selected_bg" = "#f4e1b5"
+
+# calendar related
+"calendar_date_highlight_fg" = "#1a1a1a"
+"calendar_date_highlight_bg" = "#f4e1b5"
+"calendar_iso_week_fg" = "#ffe082"
+"calendar_iso_week_bg" = "Reset"
+
+[keybindings.TaskList]
+"<k>" = "PrevTask"
+"<j>" = "NextTask"
+"<g><g>" = "SelectFirst"
+"<shift-g>" = "SelectLast"
+
+"<enter>" = "AddTask"
+"<d><d>" = "DeleteTask"
+"<d><shift-d>" = "DeleteAllDoneTasks"
+
+"<l>" = "EditTask"
+"<e><d>" = "EditDueDate"
+"<e><r>" = "EditReminderDate"
+"<e><t>" = "EditTimeTaken"
+"<s>" = "EditStatus"
+
+"<r><d>" = "ResetDueDate"
+"<r><r>" = "ResetReminderDate"
+"<r><t>" = "ResetTimeTaken"
+
+"<r><f>" = "ResetTagFilter"
+"<r><s>" = "ResetStatusFilter"
+
+"<shift-f>" = "FZFTagFilter"
+"<shift-s>" = "FZFStatusFilter"
+"<o>" = "FZFOrderBy"
+"<f>" = "FZFFindTask"
+"<h>" = "ToggleDoneTasks"
+"<shift-T>" = "ToggleShowOnlyUntagged"
+
+"< >" = "ToggleTimeTracking"
+"<i>" = "ShowCurrentlyTrackedTasks"
+
+"<t><a>" = "AddTagsToTask"
+"<t><d>" = "DeleteTagsFromTask"
+
+[keybindings.TagFilter]
+"k" = "PrevTag"
+"j" = "NextTag"
+"l" = "EditTag"
+
+"<enter>" = "AddTag"
+"<d><d>" = "DeleteTag"
+
+"< >" = "ToggleTag"
+
+[keybindings.CurrentTagsInfo]
+"k" = "PrevTagInTask"
+"j" = "NextTagInTask"
+"<t><a>" = "AddTagsToTask"
+"<t><d>" = "DeleteTagsFromTask"
+
+[keybindings.EventViewGlobal] 
+"<enter>" = "AddEvent"
+"<f>" = "FZFFindEvent"
+"<shift-f>" = "FindDate"
+
+[keybindings.Calendar]
+"<n>" = "GoToToday"
+"<h>" = "GoToPrevDay"
+"<l>" = "GoToNextDay"
+"<k>" = "GoToPrevWeek"
+"<j>" = "GoToNextWeek"
+
+[keybindings.CurrentDayList]
+"<k>" = "PrevEvent"
+"<j>" = "NextEvent"
+"<l>" = "EditEvent"
+"<d><d>" = "DeleteEvent"
+"<e><t>" = "EditDurationTime"
+"<e><r>" = "EditRecurrence"
+"<e><d>" = "EditDate"
+

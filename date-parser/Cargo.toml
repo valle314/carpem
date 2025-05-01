@@ -1,0 +1,12 @@
+[package]
+name = "date-parser"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "date_parser"
+path = "src/lib.rs"
+
+[dependencies]
+chrono = "0.4.31"
+regex = "1.9.5"
