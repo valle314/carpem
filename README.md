@@ -30,9 +30,12 @@
 
 ## Build and Run
 
-
-Build via Cargo:
-
 ```bash
 cargo run --release
 ```
+
+## Usage
+
+- For now, you can browse the interface and explore the configuration file  
+  located in your system's default config directory (e.g., `~/.config/carpem/`).
+- Documentation will be added soon — stay tuned!
